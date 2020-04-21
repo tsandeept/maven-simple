@@ -9,7 +9,12 @@
 
   <name>Simple Maven example</name>
   <url>https://jitpack.io/#jitpack/maven-simple/0.1</url>
-
+  <repositories>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
+  </repositories>
   <dependencies>
 	<dependency>
 		<groupId>com.github.jitpack</groupId>
